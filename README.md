@@ -1,15 +1,15 @@
 # APIFornecedor
 API RESTful para cadastro de fornecedor.
 
-## Migrations via Package Manager Console Visual Studio
+### Migrations via Package Manager Console Visual Studio
 Add-Migration NomeDaSuaMigration
 Update-Database
 
-## Migrations via Terminal do Linux ou PowerShell do Windows
+### Migrations via Terminal do Linux ou PowerShell do Windows
 dotnet ef migrations add NomeDaSuaMigration
 dotnet ef database update
 
-### Prerequisitos
+### Pré requisitos
 .Net Core 2.2 ou superior
 
 
