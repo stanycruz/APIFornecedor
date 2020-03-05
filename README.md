@@ -1,13 +1,17 @@
 # APIFornecedor
 API RESTful para cadastro de fornecedor.
 
-### Migrations via Package Manager Console Visual Studio
+### Diagrama de classes das entidades
+
+![N|Solid](https://i.ibb.co/4S4Sndb/uml-api.jpg)
+
+### Migrations - Package Manager Console
 ```
 Add-Migration NomeDaSuaMigration
 Update-Database
 ```
 
-### Migrations via Terminal do Linux ou PowerShell do Windows
+### Migrations - Terminal
 ```
 dotnet ef migrations add NomeDaSuaMigration
 dotnet ef database update
